@@ -6,22 +6,22 @@
 
 using namespace std;
 
-// class Evaluate {
-//     const int val;
-//   public:
-//     Evaluate(int v) : val(v) {}
-//     bool operator() (int n) const {
-//         return n < val;
-//     }
-// };
+	// class Evaluate {
+	//     const int val;
+	//   public:
+	//     Evaluate(int v) : val(v) {}
+	//     bool operator() (int n) const {
+	//         return n < val;
+	//     }
+	// };
 
-// bool compare(string a, string b){
-//     return a.back() != b.back() ? a.back() < b.back() : a<b;
-// }
+	// bool compare(string a, string b){
+	//     return a.back() != b.back() ? a.back() < b.back() : a<b;
+	// }
 
-// bool is_vowel(char c) {
-//     return c=='a' || c=='e' || c=='i' || c=='o' || c=='u';
-// }
+	// bool is_vowel(char c) {
+	//     return c=='a' || c=='e' || c=='i' || c=='o' || c=='u';
+	// }
 int main() {
 	// your code goes here
     // 	tuple t = {false,5.26,1LL,97.1};        Tuple Question
@@ -32,11 +32,14 @@ int main() {
     // 	tuple <int, double> t = {1,2.3};        Tuple Cout
     // 	    couts == cout << get<double>(t); cout << get<1>(t);
 	
-// 	vector<string> vsSea = {"Winter", "Spring", "Summer", "Fall"};
-// 	sort(vsSea.begin(), vsSea.end(), compare);
-// 	for (auto s : vsSea)
-// 	    cout << s;
+	//constexpr long double pi = 3.14159265358979323846264;
+	// valid lamba fxn defs ==
+	// auto tau = [] {return pi*2}; , auto tau =[]() -> long double {return pi*2};, auto tau = [](){return pi*2};	
 	
+	// 	vector<string> vsSea = {"Winter", "Spring", "Summer", "Fall"};
+	// 	sort(vsSea.begin(), vsSea.end(), compare);
+	// 	for (auto s : vsSea)
+	// 	    cout << s;
 	
     // int a[] = {0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19}; This is the Evaluate code
     // cout << count_if(a+3, end(a), Evaluate(14)); // == 11, thats the answer
